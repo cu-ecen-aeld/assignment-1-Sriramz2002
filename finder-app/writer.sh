@@ -18,7 +18,7 @@ direc=$(dirname "$writefile")
 
 mkdir -p "$direc" #create a director
 
-# Attempt to write to the file
+# to write to the file
 if ! echo "$writestr" > "$writefile"; 
 then
     echo "Error!"
